@@ -1,7 +1,7 @@
 %define	name	dsh
 %define	version	0.25.7
 
-Summary:	Distributed shell. Runs command through rsh or ssh on a cluster of machines.
+Summary:	Distributed shell. Runs command through rsh or ssh on a cluster of machines
 Name:		%{name}
 Version:	%{version}
 Release:	%mkrel 1

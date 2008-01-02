@@ -9,6 +9,7 @@ Source0:	%{name}-%{version}.tar.bz2
 License:	GPL
 Group:		Networking/Remote access
 Url:		http://www.netfort.gr.jp/~dancer/software/downloads/#dsh
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Buildrequires:	libdshconfig-devel
 
 %description

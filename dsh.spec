@@ -1,11 +1,11 @@
 %define	name	dsh
-%define	version	0.25.7
+%define	version	0.25.9
 
 Summary:	Distributed shell. Runs command through rsh or ssh on a cluster of machines
 Name:		%{name}
 Version:	%{version}
 Release:	%mkrel 1
-Source0:	%{name}-%{version}.tar.bz2
+Source0:	%{name}-%{version}.tar.gz
 License:	GPL
 Group:		Networking/Remote access
 Url:		http://www.netfort.gr.jp/~dancer/software/downloads/#dsh

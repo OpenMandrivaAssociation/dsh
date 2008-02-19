@@ -10,7 +10,7 @@ License:	GPL
 Group:		Networking/Remote access
 Url:		http://www.netfort.gr.jp/~dancer/software/downloads/#dsh
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Buildrequires:	libdshconfig-devel
+Buildrequires:	dshconfig-devel
 
 %description
 Distributed shell. Runs command through rsh or ssh on a cluster of machines.

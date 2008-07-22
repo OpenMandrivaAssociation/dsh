@@ -4,7 +4,7 @@
 Summary:	Distributed shell. Runs command through rsh or ssh on a cluster of machines
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel 2
+Release:	%mkrel 3
 Source0:	%{name}-%{version}.tar.gz
 License:	GPL
 Group:		Networking/Remote access

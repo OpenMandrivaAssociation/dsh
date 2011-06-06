@@ -1,16 +1,16 @@
 %define	name	dsh
-%define	version	0.25.9
+%define	version	0.25.10
 
 Summary:	Distributed shell. Runs command through rsh or ssh on a cluster of machines
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel 3
+Release:	%mkrel 1
 Source0:	%{name}-%{version}.tar.gz
 License:	GPL
 Group:		Networking/Remote access
 Url:		http://www.netfort.gr.jp/~dancer/software/downloads/#dsh
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Buildrequires:	dshconfig-devel
+Buildrequires:	libdshconfig-devel
 
 %description
 Distributed shell. Runs command through rsh or ssh on a cluster of machines.
@@ -20,7 +20,7 @@ Requires libdshconfig to be already installed on the system
 %setup -q
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install

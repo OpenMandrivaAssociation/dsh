@@ -8,7 +8,7 @@ Release:	%mkrel 1
 Source0:	%{name}-%{version}.tar.gz
 License:	GPL
 Group:		Networking/Remote access
-Url:		http://www.netfort.gr.jp/~dancer/software/downloads/#dsh
+Url:		https://www.netfort.gr.jp/~dancer/software/downloads/#dsh
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Buildrequires:	libdshconfig-devel
 

@@ -10,6 +10,11 @@ License:	GPL
 Group:		Networking/Remote access
 Url:		https://www.netfort.gr.jp/~dancer/software/downloads/#dsh
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 Buildrequires:	libdshconfig-devel
 
 %description
